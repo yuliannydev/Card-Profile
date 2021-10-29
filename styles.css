@@ -1,0 +1,44 @@
+body {
+  margin: 10px;
+}
+section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  background-color: powderblue;
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.card {
+  width: 400px;
+  height: 400px;
+  background: palevioletred;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid powderblue;
+}
+img {
+  width: 90%;
+  height: 90%;
+}
+
+@media (max-width: 560px) {
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  img {
+    width: 85%;
+    height: 85%;
+  }
+}
